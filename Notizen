@@ -1,0 +1,4 @@
+Note : 
+
+über das Problem der Position Nachfrage zu minimieren und dafür die PositionClient als Lösung zu nutzen 
+der sobald ein neue Position da ist sie weiterleitet um die last zu minimieren vom Positionprovider.

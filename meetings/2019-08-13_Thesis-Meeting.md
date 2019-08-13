@@ -1,31 +1,31 @@
-# 2019-07-30 Thesis Meeting
+# 2019-08-13 Thesis Meeting
 
 |||
 -----------------------|---------------------------------------------
  **Participants**:     | ANO MOE
- **Date**:             | 2019-08-06
+ **Date**:             | 2019-08-13
  **Start time**:       | 13:00
- **End time**:         | 
+ **End time**:         | 14:00
  **Location**:         | 079
 
 ## Agenda
 
-* Score-Algorithmus
-* MOCKs
-* Tests
 * Thesis Inhaltsverzeichnis
+* Sortierung der Liste
+
 
 ## Discussed Topics
 
-* Score Algorithmus
-    * Guter Ansatz distance und SpeedDif
-    * Liste oder Map: Abwägen, wie sortiert wird
-    * Nebenläufigkeiten beachten: ForeignVehicleInfos nicht als überschreibbare Klassenparamter speichern
-* MOCK / Tests
-    * Bislang noch nicht getestet
-    * kurze Einführung in das Framework notwendig
-* Thesis Inhaltsverzeichnis
+* kommentierte Fassung der Thesis liegt im MOE Thesis Management Repository
+* Fehler im Activator gefunden
+* Konzept für den Komperator erstellt
+    * Nutze Long.compare(...) 
+* Geplante Arbeiten
+    * Score Methode fertig stellen
+    * HMI Adapter implementieren und erste Nachricht anzeigen
+    * Testen, nachdem die Fehler im Activator gefixt sind
+    * Inhaltsverzeichnis anpassen
 
 ## Assigned Work
 
-* ANO: Einführung in das Arbeiten mit Framework morgen früh um 11:00
+

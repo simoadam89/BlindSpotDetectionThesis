@@ -1,0 +1,982 @@
+20190906 12:29:29.362 118 DEBUG [BLINDSPOTDETECTION] own Heading is :121.1
+20190906 12:29:29.363 118 DEBUG [BLINDSPOTDETECTION] other Heading is :112.0
+20190906 12:29:29.363 118 DEBUG [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] own heading121.1
+20190906 12:29:29.364 118 DEBUG [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] other vehicle heading112.0
+20190906 12:29:29.365 118 DEBUG [BLINDSPOTDETECTION] the calculated relative bearing ist : 328.9000252238759
+20190906 12:29:29.367 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl]  : display methode is starting
+20190906 12:29:29.367 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl]  : Start building the presentation
+20190906 12:29:29.368 118 DEBUG [BLINDSPOTDETECTION] Hmi presentation task is successfully created
+20190906 12:29:29.368 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl]  : PresentationT successfully built
+20190906 12:29:29.369 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl] there is already a presentation  for this Situation. will do update
+20190906 12:29:29.369 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl] the situationid To PresentationTask = {10003=HmiPresentationTask [id=6099885639680832492, title=Information, messageText=2m, image=null, imageBytes=#image-bytes#, imageType=svg+xml, imageBase64String=#imageBase64-encoded-String#, secondImage=null, secondImageBytes=#secondImage-bytes#, secondImageType=null, secondImageBase64String=#secondImageBase64-encoded-String#, category=INFO, viewType=2, position=null, validTime=1567772973370, validForSeconds=6, interactive=false, initialPopup=true, responseOptions=null, serviceReference=null, playSound=false, soundFileName=null]}
+20190906 12:29:29.370 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl] the situationid To PresentationId = {10003=6099885639680832492}
+20190906 12:29:29.372 89 INFO [hmiprovider] HmiProviderImpl: message 6099885639680832492: HmiPresentationTask [id=6099885639680832492, title=Information, messageText=5m, image=null, imageBytes=#image-bytes#, imageType=svg+xml, imageBase64String=#imageBase64-encoded-String#, secondImage=null, secondImageBytes=#secondImage-bytes#, secondImageType=null, secondImageBase64String=#secondImageBase64-encoded-String#, category=INFO, viewType=2, position=null, validTime=1567772975368, validForSeconds=6, interactive=false, initialPopup=true, responseOptions=null, serviceReference=null, playSound=false, soundFileName=null] updated
+20190906 12:29:29.372 118 DEBUG [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] Starting to Display a presentation from left side
+20190906 12:29:29.373 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl]  : display methode is starting
+20190906 12:29:29.374 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl]  : Start building the presentation
+20190906 12:29:29.375 118 DEBUG [BLINDSPOTDETECTION] Hmi presentation task is successfully created
+20190906 12:29:29.375 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl]  : PresentationT successfully built
+20190906 12:29:29.376 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl] there is already a presentation  for this Situation. will do update
+20190906 12:29:29.376 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl] the situationid To PresentationTask = {10003=HmiPresentationTask [id=6099885639680832492, title=Information, messageText=2m, image=null, imageBytes=#image-bytes#, imageType=svg+xml, imageBase64String=#imageBase64-encoded-String#, secondImage=null, secondImageBytes=#secondImage-bytes#, secondImageType=null, secondImageBase64String=#secondImageBase64-encoded-String#, category=INFO, viewType=2, position=null, validTime=1567772973370, validForSeconds=6, interactive=false, initialPopup=true, responseOptions=null, serviceReference=null, playSound=false, soundFileName=null]}
+20190906 12:29:29.377 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl] the situationid To PresentationId = {10003=6099885639680832492}
+20190906 12:29:29.379 89 INFO [hmiprovider] HmiProviderImpl: message 6099885639680832492: HmiPresentationTask [id=6099885639680832492, title=Information, messageText=2m, image=null, imageBytes=#image-bytes#, imageType=svg+xml, imageBase64String=#imageBase64-encoded-String#, secondImage=null, secondImageBytes=#secondImage-bytes#, secondImageType=null, secondImageBase64String=#secondImageBase64-encoded-String#, category=INFO, viewType=2, position=null, validTime=1567772975374, validForSeconds=6, interactive=false, initialPopup=true, responseOptions=null, serviceReference=null, playSound=false, soundFileName=null] updated
+20190906 12:29:29.379 118 INFO [BLINDSPOTDETECTION]  Foreignvehicle info succesfully processed : 
+20190906 12:29:29.379 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] ForeignVehicle processing succes
+20190906 12:29:29.379 118 DEBUG [BLINDSPOTDETECTION] Begin to take from the messageQueue
+20190906 12:29:29.380 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Begin to take from the messageQueue
+20190906 12:29:29.441 118 INFO [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl]  onData methode is getting started
+20190906 12:29:29.442 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] getting position on onData
+20190906 12:29:29.442 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] Ownposition successfuly build
+20190906 12:29:29.442 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicleLength10221
+20190906 12:29:29.443 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicle611
+20190906 12:29:29.443 118 INFO [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] ownvehicle Info receive succes
+20190906 12:29:29.443 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] OwnVehicleInfo successfully processed
+20190906 12:29:29.541 118 INFO [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl]  onData methode is getting started
+20190906 12:29:29.541 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] getting position on onData
+20190906 12:29:29.541 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] Ownposition successfuly build
+20190906 12:29:29.542 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicleLength10221
+20190906 12:29:29.542 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicle611
+20190906 12:29:29.542 118 INFO [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] ownvehicle Info receive succes
+20190906 12:29:29.542 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] OwnVehicleInfo successfully processed
+20190906 12:29:29.580 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Took new Cam 
+20190906 12:29:29.580 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Cam was Null
+20190906 12:29:29.580 118 DEBUG [BLINDSPOTDETECTION] Begin to take from the messageQueue
+20190906 12:29:29.581 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Begin to take from the messageQueue
+20190906 12:29:29.648 118 INFO [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl]  onData methode is getting started
+20190906 12:29:29.648 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] getting position on onData
+20190906 12:29:29.649 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] Ownposition successfuly build
+20190906 12:29:29.649 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicleLength10221
+20190906 12:29:29.650 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicle611
+20190906 12:29:29.650 118 INFO [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] ownvehicle Info receive succes
+20190906 12:29:29.650 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] OwnVehicleInfo successfully processed
+20190906 12:29:29.742 118 INFO [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl]  onData methode is getting started
+20190906 12:29:29.742 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] getting position on onData
+20190906 12:29:29.743 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] Ownposition successfuly build
+20190906 12:29:29.743 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicleLength10221
+20190906 12:29:29.743 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicle611
+20190906 12:29:29.744 118 INFO [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] ownvehicle Info receive succes
+20190906 12:29:29.744 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] OwnVehicleInfo successfully processed
+20190906 12:29:29.781 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Took new Cam 
+20190906 12:29:29.782 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Cam was Null
+20190906 12:29:29.782 118 DEBUG [BLINDSPOTDETECTION] Begin to take from the messageQueue
+20190906 12:29:29.782 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Begin to take from the messageQueue
+20190906 12:29:29.840 118 INFO [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl]  onData methode is getting started
+20190906 12:29:29.841 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] getting position on onData
+20190906 12:29:29.841 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] Ownposition successfuly build
+20190906 12:29:29.841 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicleLength10221
+20190906 12:29:29.842 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicle611
+20190906 12:29:29.843 118 INFO [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] ownvehicle Info receive succes
+20190906 12:29:29.844 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] OwnVehicleInfo successfully processed
+20190906 12:29:29.867 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Succeed adding a new Cam
+20190906 12:29:29.868 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Took new Cam 
+20190906 12:29:29.868 118 DEBUG [BLINDSPOTDETECTION] Handling Cam received from the Station : 10003
+20190906 12:29:29.868 118 DEBUG [BLINDSPOTDETECTION] begin to extract from the received cam
+20190906 12:29:29.869 118 DEBUG [BLINDSPOTDETECTION] own Heading is :121.1
+20190906 12:29:29.869 118 DEBUG [BLINDSPOTDETECTION] other Heading is :111.0
+20190906 12:29:29.869 118 DEBUG [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] not the same direction, canot calculate the Relevence
+20190906 12:29:29.869 118 INFO [BLINDSPOTDETECTION]  Foreignvehicle info succesfully processed : 
+20190906 12:29:29.869 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] ForeignVehicle processing succes
+20190906 12:29:29.870 118 DEBUG [BLINDSPOTDETECTION] Begin to take from the messageQueue
+20190906 12:29:29.870 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Begin to take from the messageQueue
+20190906 12:29:29.940 118 INFO [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl]  onData methode is getting started
+20190906 12:29:29.941 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] getting position on onData
+20190906 12:29:29.941 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] Ownposition successfuly build
+20190906 12:29:29.941 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicleLength10221
+20190906 12:29:29.942 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicle611
+20190906 12:29:29.942 118 INFO [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] ownvehicle Info receive succes
+20190906 12:29:29.942 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] OwnVehicleInfo successfully processed
+20190906 12:29:30.071 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Took new Cam 
+20190906 12:29:30.071 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Cam was Null
+20190906 12:29:30.071 118 DEBUG [BLINDSPOTDETECTION] Begin to take from the messageQueue
+20190906 12:29:30.071 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Begin to take from the messageQueue
+20190906 12:29:30.072 118 INFO [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl]  onData methode is getting started
+20190906 12:29:30.072 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] getting position on onData
+20190906 12:29:30.072 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] Ownposition successfuly build
+20190906 12:29:30.073 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicleLength10221
+20190906 12:29:30.073 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicle611
+20190906 12:29:30.073 118 INFO [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] ownvehicle Info receive succes
+20190906 12:29:30.074 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] OwnVehicleInfo successfully processed
+20190906 12:29:30.153 118 INFO [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl]  onData methode is getting started
+20190906 12:29:30.153 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] getting position on onData
+20190906 12:29:30.153 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] Ownposition successfuly build
+20190906 12:29:30.155 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicleLength10221
+20190906 12:29:30.155 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicle611
+20190906 12:29:30.155 118 INFO [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] ownvehicle Info receive succes
+20190906 12:29:30.156 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] OwnVehicleInfo successfully processed
+20190906 12:29:30.241 118 INFO [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl]  onData methode is getting started
+20190906 12:29:30.242 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] getting position on onData
+20190906 12:29:30.242 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] Ownposition successfuly build
+20190906 12:29:30.242 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicleLength10221
+20190906 12:29:30.243 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicle611
+20190906 12:29:30.243 118 INFO [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] ownvehicle Info receive succes
+20190906 12:29:30.243 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] OwnVehicleInfo successfully processed
+20190906 12:29:30.272 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Took new Cam 
+20190906 12:29:30.272 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Cam was Null
+20190906 12:29:30.272 118 DEBUG [BLINDSPOTDETECTION] Begin to take from the messageQueue
+20190906 12:29:30.272 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Begin to take from the messageQueue
+20190906 12:29:30.340 118 INFO [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl]  onData methode is getting started
+20190906 12:29:30.341 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] getting position on onData
+20190906 12:29:30.341 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] Ownposition successfuly build
+20190906 12:29:30.343 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicleLength10221
+20190906 12:29:30.343 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicle611
+20190906 12:29:30.345 118 INFO [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] ownvehicle Info receive succes
+20190906 12:29:30.346 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] OwnVehicleInfo successfully processed
+20190906 12:29:30.358 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Succeed adding a new Cam
+20190906 12:29:30.358 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Took new Cam 
+20190906 12:29:30.359 118 DEBUG [BLINDSPOTDETECTION] Handling Cam received from the Station : 10003
+20190906 12:29:30.359 118 DEBUG [BLINDSPOTDETECTION] begin to extract from the received cam
+20190906 12:29:30.360 118 DEBUG [BLINDSPOTDETECTION] own Heading is :121.1
+20190906 12:29:30.360 118 DEBUG [BLINDSPOTDETECTION] other Heading is :112.0
+20190906 12:29:30.361 118 DEBUG [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] own heading121.1
+20190906 12:29:30.362 118 DEBUG [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] other vehicle heading112.0
+20190906 12:29:30.363 118 DEBUG [BLINDSPOTDETECTION] the calculated relative bearing ist : 328.9000189373718
+20190906 12:29:30.364 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl]  : display methode is starting
+20190906 12:29:30.364 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl]  : Start building the presentation
+20190906 12:29:30.365 118 DEBUG [BLINDSPOTDETECTION] Hmi presentation task is successfully created
+20190906 12:29:30.366 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl]  : PresentationT successfully built
+20190906 12:29:30.366 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl] there is already a presentation  for this Situation. will do update
+20190906 12:29:30.366 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl] the situationid To PresentationTask = {10003=HmiPresentationTask [id=6099885639680832492, title=Information, messageText=2m, image=null, imageBytes=#image-bytes#, imageType=svg+xml, imageBase64String=#imageBase64-encoded-String#, secondImage=null, secondImageBytes=#secondImage-bytes#, secondImageType=null, secondImageBase64String=#secondImageBase64-encoded-String#, category=INFO, viewType=2, position=null, validTime=1567772973370, validForSeconds=6, interactive=false, initialPopup=true, responseOptions=null, serviceReference=null, playSound=false, soundFileName=null]}
+20190906 12:29:30.366 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl] the situationid To PresentationId = {10003=6099885639680832492}
+20190906 12:29:30.368 89 INFO [hmiprovider] HmiProviderImpl: message 6099885639680832492: HmiPresentationTask [id=6099885639680832492, title=Information, messageText=4m, image=null, imageBytes=#image-bytes#, imageType=svg+xml, imageBase64String=#imageBase64-encoded-String#, secondImage=null, secondImageBytes=#secondImage-bytes#, secondImageType=null, secondImageBase64String=#secondImageBase64-encoded-String#, category=INFO, viewType=2, position=null, validTime=1567772976364, validForSeconds=6, interactive=false, initialPopup=true, responseOptions=null, serviceReference=null, playSound=false, soundFileName=null] updated
+20190906 12:29:30.369 118 DEBUG [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] Starting to Display a presentation from left side
+20190906 12:29:30.369 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl]  : display methode is starting
+20190906 12:29:30.370 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl]  : Start building the presentation
+20190906 12:29:30.380 118 DEBUG [BLINDSPOTDETECTION] Hmi presentation task is successfully created
+20190906 12:29:30.381 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl]  : PresentationT successfully built
+20190906 12:29:30.381 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl] there is already a presentation  for this Situation. will do update
+20190906 12:29:30.382 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl] the situationid To PresentationTask = {10003=HmiPresentationTask [id=6099885639680832492, title=Information, messageText=2m, image=null, imageBytes=#image-bytes#, imageType=svg+xml, imageBase64String=#imageBase64-encoded-String#, secondImage=null, secondImageBytes=#secondImage-bytes#, secondImageType=null, secondImageBase64String=#secondImageBase64-encoded-String#, category=INFO, viewType=2, position=null, validTime=1567772973370, validForSeconds=6, interactive=false, initialPopup=true, responseOptions=null, serviceReference=null, playSound=false, soundFileName=null]}
+20190906 12:29:30.384 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl] the situationid To PresentationId = {10003=6099885639680832492}
+20190906 12:29:30.385 89 INFO [hmiprovider] HmiProviderImpl: message 6099885639680832492: HmiPresentationTask [id=6099885639680832492, title=Information, messageText=2m, image=null, imageBytes=#image-bytes#, imageType=svg+xml, imageBase64String=#imageBase64-encoded-String#, secondImage=null, secondImageBytes=#secondImage-bytes#, secondImageType=null, secondImageBase64String=#secondImageBase64-encoded-String#, category=INFO, viewType=2, position=null, validTime=1567772976380, validForSeconds=6, interactive=false, initialPopup=true, responseOptions=null, serviceReference=null, playSound=false, soundFileName=null] updated
+20190906 12:29:30.385 118 INFO [BLINDSPOTDETECTION]  Foreignvehicle info succesfully processed : 
+20190906 12:29:30.385 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] ForeignVehicle processing succes
+20190906 12:29:30.386 118 DEBUG [BLINDSPOTDETECTION] Begin to take from the messageQueue
+20190906 12:29:30.386 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Begin to take from the messageQueue
+20190906 12:29:30.442 118 INFO [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl]  onData methode is getting started
+20190906 12:29:30.442 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] getting position on onData
+20190906 12:29:30.442 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] Ownposition successfuly build
+20190906 12:29:30.443 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicleLength10221
+20190906 12:29:30.443 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicle611
+20190906 12:29:30.444 118 INFO [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] ownvehicle Info receive succes
+20190906 12:29:30.444 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] OwnVehicleInfo successfully processed
+20190906 12:29:30.555 118 INFO [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl]  onData methode is getting started
+20190906 12:29:30.555 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] getting position on onData
+20190906 12:29:30.555 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] Ownposition successfuly build
+20190906 12:29:30.556 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicleLength10221
+20190906 12:29:30.557 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicle611
+20190906 12:29:30.558 118 INFO [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] ownvehicle Info receive succes
+20190906 12:29:30.558 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] OwnVehicleInfo successfully processed
+20190906 12:29:30.586 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Took new Cam 
+20190906 12:29:30.586 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Cam was Null
+20190906 12:29:30.587 118 DEBUG [BLINDSPOTDETECTION] Begin to take from the messageQueue
+20190906 12:29:30.587 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Begin to take from the messageQueue
+20190906 12:29:30.646 118 INFO [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl]  onData methode is getting started
+20190906 12:29:30.646 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] getting position on onData
+20190906 12:29:30.646 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] Ownposition successfuly build
+20190906 12:29:30.647 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicleLength10221
+20190906 12:29:30.647 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicle611
+20190906 12:29:30.649 118 INFO [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] ownvehicle Info receive succes
+20190906 12:29:30.650 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] OwnVehicleInfo successfully processed
+20190906 12:29:30.740 118 INFO [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl]  onData methode is getting started
+20190906 12:29:30.741 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] getting position on onData
+20190906 12:29:30.741 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] Ownposition successfuly build
+20190906 12:29:30.742 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicleLength10221
+20190906 12:29:30.743 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicle611
+20190906 12:29:30.743 118 INFO [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] ownvehicle Info receive succes
+20190906 12:29:30.743 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] OwnVehicleInfo successfully processed
+20190906 12:29:30.787 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Took new Cam 
+20190906 12:29:30.787 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Cam was Null
+20190906 12:29:30.787 118 DEBUG [BLINDSPOTDETECTION] Begin to take from the messageQueue
+20190906 12:29:30.787 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Begin to take from the messageQueue
+20190906 12:29:30.840 118 INFO [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl]  onData methode is getting started
+20190906 12:29:30.840 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] getting position on onData
+20190906 12:29:30.841 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] Ownposition successfuly build
+20190906 12:29:30.842 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicleLength10221
+20190906 12:29:30.842 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicle611
+20190906 12:29:30.843 118 INFO [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] ownvehicle Info receive succes
+20190906 12:29:30.843 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] OwnVehicleInfo successfully processed
+20190906 12:29:30.876 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Succeed adding a new Cam
+20190906 12:29:30.876 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Took new Cam 
+20190906 12:29:30.877 118 DEBUG [BLINDSPOTDETECTION] Handling Cam received from the Station : 10003
+20190906 12:29:30.877 118 DEBUG [BLINDSPOTDETECTION] begin to extract from the received cam
+20190906 12:29:30.878 118 DEBUG [BLINDSPOTDETECTION] own Heading is :121.1
+20190906 12:29:30.879 118 DEBUG [BLINDSPOTDETECTION] other Heading is :113.0
+20190906 12:29:30.879 118 DEBUG [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] own heading121.1
+20190906 12:29:30.880 118 DEBUG [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] other vehicle heading113.0
+20190906 12:29:30.881 118 DEBUG [BLINDSPOTDETECTION] the calculated relative bearing ist : 328.9000189373718
+20190906 12:29:30.882 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl]  : display methode is starting
+20190906 12:29:30.882 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl]  : Start building the presentation
+20190906 12:29:30.884 118 DEBUG [BLINDSPOTDETECTION] Hmi presentation task is successfully created
+20190906 12:29:30.884 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl]  : PresentationT successfully built
+20190906 12:29:30.884 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl] there is already a presentation  for this Situation. will do update
+20190906 12:29:30.885 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl] the situationid To PresentationTask = {10003=HmiPresentationTask [id=6099885639680832492, title=Information, messageText=2m, image=null, imageBytes=#image-bytes#, imageType=svg+xml, imageBase64String=#imageBase64-encoded-String#, secondImage=null, secondImageBytes=#secondImage-bytes#, secondImageType=null, secondImageBase64String=#secondImageBase64-encoded-String#, category=INFO, viewType=2, position=null, validTime=1567772973370, validForSeconds=6, interactive=false, initialPopup=true, responseOptions=null, serviceReference=null, playSound=false, soundFileName=null]}
+20190906 12:29:30.885 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl] the situationid To PresentationId = {10003=6099885639680832492}
+20190906 12:29:30.886 89 INFO [hmiprovider] HmiProviderImpl: message 6099885639680832492: HmiPresentationTask [id=6099885639680832492, title=Information, messageText=4m, image=null, imageBytes=#image-bytes#, imageType=svg+xml, imageBase64String=#imageBase64-encoded-String#, secondImage=null, secondImageBytes=#secondImage-bytes#, secondImageType=null, secondImageBase64String=#secondImageBase64-encoded-String#, category=INFO, viewType=2, position=null, validTime=1567772976883, validForSeconds=6, interactive=false, initialPopup=true, responseOptions=null, serviceReference=null, playSound=false, soundFileName=null] updated
+20190906 12:29:30.887 118 DEBUG [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] Starting to Display a presentation from left side
+20190906 12:29:30.887 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl]  : display methode is starting
+20190906 12:29:30.887 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl]  : Start building the presentation
+20190906 12:29:30.888 118 DEBUG [BLINDSPOTDETECTION] Hmi presentation task is successfully created
+20190906 12:29:30.888 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl]  : PresentationT successfully built
+20190906 12:29:30.889 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl] there is already a presentation  for this Situation. will do update
+20190906 12:29:30.889 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl] the situationid To PresentationTask = {10003=HmiPresentationTask [id=6099885639680832492, title=Information, messageText=2m, image=null, imageBytes=#image-bytes#, imageType=svg+xml, imageBase64String=#imageBase64-encoded-String#, secondImage=null, secondImageBytes=#secondImage-bytes#, secondImageType=null, secondImageBase64String=#secondImageBase64-encoded-String#, category=INFO, viewType=2, position=null, validTime=1567772973370, validForSeconds=6, interactive=false, initialPopup=true, responseOptions=null, serviceReference=null, playSound=false, soundFileName=null]}
+20190906 12:29:30.890 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl] the situationid To PresentationId = {10003=6099885639680832492}
+20190906 12:29:30.892 89 INFO [hmiprovider] HmiProviderImpl: message 6099885639680832492: HmiPresentationTask [id=6099885639680832492, title=Information, messageText=2m, image=null, imageBytes=#image-bytes#, imageType=svg+xml, imageBase64String=#imageBase64-encoded-String#, secondImage=null, secondImageBytes=#secondImage-bytes#, secondImageType=null, secondImageBase64String=#secondImageBase64-encoded-String#, category=INFO, viewType=2, position=null, validTime=1567772976888, validForSeconds=6, interactive=false, initialPopup=true, responseOptions=null, serviceReference=null, playSound=false, soundFileName=null] updated
+20190906 12:29:30.892 118 INFO [BLINDSPOTDETECTION]  Foreignvehicle info succesfully processed : 
+20190906 12:29:30.893 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] ForeignVehicle processing succes
+20190906 12:29:30.893 118 DEBUG [BLINDSPOTDETECTION] Begin to take from the messageQueue
+20190906 12:29:30.893 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Begin to take from the messageQueue
+20190906 12:29:30.941 118 INFO [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl]  onData methode is getting started
+20190906 12:29:30.942 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] getting position on onData
+20190906 12:29:30.942 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] Ownposition successfuly build
+20190906 12:29:30.942 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicleLength10221
+20190906 12:29:30.942 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicle611
+20190906 12:29:30.943 118 INFO [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] ownvehicle Info receive succes
+20190906 12:29:30.943 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] OwnVehicleInfo successfully processed
+
+
+
+
+
+and 
+for
+the
+last
+situation
+20190906 12:30:03.845 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicle611
+20190906 12:30:03.846 118 INFO [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] ownvehicle Info receive succes
+20190906 12:30:03.847 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] OwnVehicleInfo successfully processed
+20190906 12:30:03.941 118 INFO [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl]  onData methode is getting started
+20190906 12:30:03.942 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] getting position on onData
+20190906 12:30:03.942 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] Ownposition successfuly build
+20190906 12:30:03.943 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicleLength10221
+20190906 12:30:03.943 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicle611
+20190906 12:30:03.944 118 INFO [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] ownvehicle Info receive succes
+20190906 12:30:03.944 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] OwnVehicleInfo successfully processed
+20190906 12:30:04.005 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Took new Cam 
+20190906 12:30:04.005 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Cam was Null
+20190906 12:30:04.005 118 DEBUG [BLINDSPOTDETECTION] Begin to take from the messageQueue
+20190906 12:30:04.005 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Begin to take from the messageQueue
+20190906 12:30:04.070 118 INFO [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl]  onData methode is getting started
+20190906 12:30:04.070 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] getting position on onData
+20190906 12:30:04.071 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] Ownposition successfuly build
+20190906 12:30:04.071 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicleLength10221
+20190906 12:30:04.072 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicle611
+20190906 12:30:04.072 118 INFO [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] ownvehicle Info receive succes
+20190906 12:30:04.073 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] OwnVehicleInfo successfully processed
+20190906 12:30:04.107 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Succeed adding a new Cam
+20190906 12:30:04.109 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Took new Cam 
+20190906 12:30:04.110 118 DEBUG [BLINDSPOTDETECTION] Handling Cam received from the Station : 10003
+20190906 12:30:04.110 118 DEBUG [BLINDSPOTDETECTION] begin to extract from the received cam
+20190906 12:30:04.111 118 DEBUG [BLINDSPOTDETECTION] own Heading is :121.1
+20190906 12:30:04.112 118 DEBUG [BLINDSPOTDETECTION] other Heading is :118.0
+20190906 12:30:04.112 118 DEBUG [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] own heading121.1
+20190906 12:30:04.113 118 DEBUG [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] other vehicle heading118.0
+20190906 12:30:04.114 118 DEBUG [BLINDSPOTDETECTION] the calculated relative bearing ist : 328.9000189373718
+20190906 12:30:04.115 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl]  : display methode is starting
+20190906 12:30:04.115 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl]  : Start building the presentation
+20190906 12:30:04.117 118 DEBUG [BLINDSPOTDETECTION] Hmi presentation task is successfully created
+20190906 12:30:04.117 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl]  : PresentationT successfully built
+20190906 12:30:04.118 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl]  : adding PresentationTask to the HMI
+20190906 12:30:04.120 89 INFO [hmiprovider] HmiProviderImpl: presentation task 602915210716859411: HmiPresentationTask [id=602915210716859411, title=Information, messageText=4m, image=null, imageBytes=#image-bytes#, imageType=svg+xml, imageBase64String=#imageBase64-encoded-String#, secondImage=null, secondImageBytes=#secondImage-bytes#, secondImageType=null, secondImageBase64String=#secondImageBase64-encoded-String#, category=INFO, viewType=2, position=null, validTime=1567773010116, validForSeconds=6, interactive=false, initialPopup=true, responseOptions=null, serviceReference=null, playSound=false, soundFileName=null] added
+20190906 12:30:04.122 118 INFO [BLINDSPOTDETECTION] presentation successfully added to display (ID: 602915210716859411)
+20190906 12:30:04.122 118 DEBUG [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] Starting to Display a presentation from left side
+20190906 12:30:04.123 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl]  : display methode is starting
+20190906 12:30:04.124 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl]  : Start building the presentation
+20190906 12:30:04.125 118 DEBUG [BLINDSPOTDETECTION] Hmi presentation task is successfully created
+20190906 12:30:04.126 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl]  : PresentationT successfully built
+20190906 12:30:04.126 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl] there is already a presentation  for this Situation. will do update
+20190906 12:30:04.126 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl] the situationid To PresentationTask = {10003=HmiPresentationTask [id=602915210716859411, title=Information, messageText=4m, image=null, imageBytes=#image-bytes#, imageType=svg+xml, imageBase64String=#imageBase64-encoded-String#, secondImage=null, secondImageBytes=#secondImage-bytes#, secondImageType=null, secondImageBase64String=#secondImageBase64-encoded-String#, category=INFO, viewType=2, position=null, validTime=1567773010116, validForSeconds=6, interactive=false, initialPopup=true, responseOptions=null, serviceReference=null, playSound=false, soundFileName=null]}
+20190906 12:30:04.127 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl] the situationid To PresentationId = {10003=602915210716859411}
+20190906 12:30:04.128 89 INFO [hmiprovider] HmiProviderImpl: message 602915210716859411: HmiPresentationTask [id=602915210716859411, title=Information, messageText=2m, image=null, imageBytes=#image-bytes#, imageType=svg+xml, imageBase64String=#imageBase64-encoded-String#, secondImage=null, secondImageBytes=#secondImage-bytes#, secondImageType=null, secondImageBase64String=#secondImageBase64-encoded-String#, category=INFO, viewType=2, position=null, validTime=1567773010124, validForSeconds=6, interactive=false, initialPopup=true, responseOptions=null, serviceReference=null, playSound=false, soundFileName=null] updated
+20190906 12:30:04.128 118 INFO [BLINDSPOTDETECTION]  Foreignvehicle info succesfully processed : 
+20190906 12:30:04.129 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] ForeignVehicle processing succes
+20190906 12:30:04.129 118 DEBUG [BLINDSPOTDETECTION] Begin to take from the messageQueue
+20190906 12:30:04.129 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Begin to take from the messageQueue
+20190906 12:30:04.147 118 INFO [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl]  onData methode is getting started
+20190906 12:30:04.148 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] getting position on onData
+20190906 12:30:04.148 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] Ownposition successfuly build
+20190906 12:30:04.149 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicleLength10221
+20190906 12:30:04.150 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicle611
+20190906 12:30:04.150 118 INFO [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] ownvehicle Info receive succes
+20190906 12:30:04.151 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] OwnVehicleInfo successfully processed
+20190906 12:30:04.242 118 INFO [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl]  onData methode is getting started
+20190906 12:30:04.243 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] getting position on onData
+20190906 12:30:04.243 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] Ownposition successfuly build
+20190906 12:30:04.243 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicleLength10221
+20190906 12:30:04.244 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicle611
+20190906 12:30:04.244 118 INFO [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] ownvehicle Info receive succes
+20190906 12:30:04.244 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] OwnVehicleInfo successfully processed
+20190906 12:30:04.249 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Succeed adding a new Cam
+20190906 12:30:04.250 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Took new Cam 
+20190906 12:30:04.250 118 DEBUG [BLINDSPOTDETECTION] Handling Cam received from the Station : 10003
+20190906 12:30:04.250 118 DEBUG [BLINDSPOTDETECTION] begin to extract from the received cam
+20190906 12:30:04.251 118 DEBUG [BLINDSPOTDETECTION] own Heading is :121.1
+20190906 12:30:04.251 118 DEBUG [BLINDSPOTDETECTION] other Heading is :113.0
+20190906 12:30:04.251 118 DEBUG [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] own heading121.1
+20190906 12:30:04.252 118 DEBUG [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] other vehicle heading113.0
+20190906 12:30:04.253 118 DEBUG [BLINDSPOTDETECTION] the calculated relative bearing ist : 328.9000189373718
+20190906 12:30:04.253 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl]  : display methode is starting
+20190906 12:30:04.254 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl]  : Start building the presentation
+20190906 12:30:04.255 118 DEBUG [BLINDSPOTDETECTION] Hmi presentation task is successfully created
+20190906 12:30:04.255 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl]  : PresentationT successfully built
+20190906 12:30:04.255 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl] there is already a presentation  for this Situation. will do update
+20190906 12:30:04.256 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl] the situationid To PresentationTask = {10003=HmiPresentationTask [id=602915210716859411, title=Information, messageText=4m, image=null, imageBytes=#image-bytes#, imageType=svg+xml, imageBase64String=#imageBase64-encoded-String#, secondImage=null, secondImageBytes=#secondImage-bytes#, secondImageType=null, secondImageBase64String=#secondImageBase64-encoded-String#, category=INFO, viewType=2, position=null, validTime=1567773010116, validForSeconds=6, interactive=false, initialPopup=true, responseOptions=null, serviceReference=null, playSound=false, soundFileName=null]}
+20190906 12:30:04.256 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl] the situationid To PresentationId = {10003=602915210716859411}
+20190906 12:30:04.258 89 INFO [hmiprovider] HmiProviderImpl: message 602915210716859411: HmiPresentationTask [id=602915210716859411, title=Information, messageText=4m, image=null, imageBytes=#image-bytes#, imageType=svg+xml, imageBase64String=#imageBase64-encoded-String#, secondImage=null, secondImageBytes=#secondImage-bytes#, secondImageType=null, secondImageBase64String=#secondImageBase64-encoded-String#, category=INFO, viewType=2, position=null, validTime=1567773010254, validForSeconds=6, interactive=false, initialPopup=true, responseOptions=null, serviceReference=null, playSound=false, soundFileName=null] updated
+20190906 12:30:04.258 118 DEBUG [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] Starting to Display a presentation from left side
+20190906 12:30:04.259 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl]  : display methode is starting
+20190906 12:30:04.259 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl]  : Start building the presentation
+20190906 12:30:04.260 118 DEBUG [BLINDSPOTDETECTION] Hmi presentation task is successfully created
+20190906 12:30:04.261 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl]  : PresentationT successfully built
+20190906 12:30:04.261 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl] there is already a presentation  for this Situation. will do update
+20190906 12:30:04.261 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl] the situationid To PresentationTask = {10003=HmiPresentationTask [id=602915210716859411, title=Information, messageText=4m, image=null, imageBytes=#image-bytes#, imageType=svg+xml, imageBase64String=#imageBase64-encoded-String#, secondImage=null, secondImageBytes=#secondImage-bytes#, secondImageType=null, secondImageBase64String=#secondImageBase64-encoded-String#, category=INFO, viewType=2, position=null, validTime=1567773010116, validForSeconds=6, interactive=false, initialPopup=true, responseOptions=null, serviceReference=null, playSound=false, soundFileName=null]}
+20190906 12:30:04.262 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl] the situationid To PresentationId = {10003=602915210716859411}
+20190906 12:30:04.265 89 INFO [hmiprovider] HmiProviderImpl: message 602915210716859411: HmiPresentationTask [id=602915210716859411, title=Information, messageText=2m, image=null, imageBytes=#image-bytes#, imageType=svg+xml, imageBase64String=#imageBase64-encoded-String#, secondImage=null, secondImageBytes=#secondImage-bytes#, secondImageType=null, secondImageBase64String=#secondImageBase64-encoded-String#, category=INFO, viewType=2, position=null, validTime=1567773010260, validForSeconds=6, interactive=false, initialPopup=true, responseOptions=null, serviceReference=null, playSound=false, soundFileName=null] updated
+20190906 12:30:04.265 118 INFO [BLINDSPOTDETECTION]  Foreignvehicle info succesfully processed : 
+20190906 12:30:04.266 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] ForeignVehicle processing succes
+20190906 12:30:04.266 118 DEBUG [BLINDSPOTDETECTION] Begin to take from the messageQueue
+20190906 12:30:04.266 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Begin to take from the messageQueue
+20190906 12:30:04.340 118 INFO [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl]  onData methode is getting started
+20190906 12:30:04.341 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] getting position on onData
+20190906 12:30:04.341 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] Ownposition successfuly build
+20190906 12:30:04.341 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicleLength10221
+20190906 12:30:04.342 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicle611
+20190906 12:30:04.342 118 INFO [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] ownvehicle Info receive succes
+20190906 12:30:04.343 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] OwnVehicleInfo successfully processed
+20190906 12:30:04.440 118 INFO [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl]  onData methode is getting started
+20190906 12:30:04.441 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] getting position on onData
+20190906 12:30:04.441 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] Ownposition successfuly build
+20190906 12:30:04.441 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicleLength10221
+20190906 12:30:04.442 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicle611
+20190906 12:30:04.442 118 INFO [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] ownvehicle Info receive succes
+20190906 12:30:04.443 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] OwnVehicleInfo successfully processed
+20190906 12:30:04.467 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Took new Cam 
+20190906 12:30:04.467 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Cam was Null
+20190906 12:30:04.467 118 DEBUG [BLINDSPOTDETECTION] Begin to take from the messageQueue
+20190906 12:30:04.467 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Begin to take from the messageQueue
+20190906 12:30:04.541 118 INFO [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl]  onData methode is getting started
+20190906 12:30:04.541 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] getting position on onData
+20190906 12:30:04.542 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] Ownposition successfuly build
+20190906 12:30:04.542 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicleLength10221
+20190906 12:30:04.542 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicle611
+20190906 12:30:04.542 118 INFO [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] ownvehicle Info receive succes
+20190906 12:30:04.542 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] OwnVehicleInfo successfully processed
+20190906 12:30:04.641 118 INFO [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl]  onData methode is getting started
+20190906 12:30:04.641 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] getting position on onData
+20190906 12:30:04.642 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] Ownposition successfuly build
+20190906 12:30:04.642 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicleLength10221
+20190906 12:30:04.642 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicle611
+20190906 12:30:04.643 118 INFO [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] ownvehicle Info receive succes
+20190906 12:30:04.643 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] OwnVehicleInfo successfully processed
+20190906 12:30:04.667 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Took new Cam 
+20190906 12:30:04.668 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Cam was Null
+20190906 12:30:04.668 118 DEBUG [BLINDSPOTDETECTION] Begin to take from the messageQueue
+20190906 12:30:04.668 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Begin to take from the messageQueue
+20190906 12:30:04.743 118 INFO [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl]  onData methode is getting started
+20190906 12:30:04.743 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] getting position on onData
+20190906 12:30:04.744 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] Ownposition successfuly build
+20190906 12:30:04.744 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicleLength10221
+20190906 12:30:04.745 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicle611
+20190906 12:30:04.745 118 INFO [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] ownvehicle Info receive succes
+20190906 12:30:04.745 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] OwnVehicleInfo successfully processed
+20190906 12:30:04.758 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Took new Cam 
+20190906 12:30:04.759 118 DEBUG [BLINDSPOTDETECTION] Handling Cam received from the Station : 10003
+20190906 12:30:04.758 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Succeed adding a new Cam
+20190906 12:30:04.759 118 DEBUG [BLINDSPOTDETECTION] begin to extract from the received cam
+20190906 12:30:04.760 118 DEBUG [BLINDSPOTDETECTION] own Heading is :121.1
+20190906 12:30:04.760 118 DEBUG [BLINDSPOTDETECTION] other Heading is :113.0
+20190906 12:30:04.761 118 DEBUG [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] own heading121.1
+20190906 12:30:04.762 118 DEBUG [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] other vehicle heading113.0
+20190906 12:30:04.763 118 DEBUG [BLINDSPOTDETECTION] the calculated relative bearing ist : 328.9000189373718
+20190906 12:30:04.763 118 DEBUG [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] Relevent object from left side added to the scoreList
+20190906 12:30:04.764 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl]  : display methode is starting
+20190906 12:30:04.764 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl]  : Start building the presentation
+20190906 12:30:04.766 118 DEBUG [BLINDSPOTDETECTION] Hmi presentation task is successfully created
+20190906 12:30:04.766 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl]  : PresentationT successfully built
+20190906 12:30:04.766 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl] there is already a presentation  for this Situation. will do update
+20190906 12:30:04.767 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl] the situationid To PresentationTask = {10003=HmiPresentationTask [id=602915210716859411, title=Information, messageText=4m, image=null, imageBytes=#image-bytes#, imageType=svg+xml, imageBase64String=#imageBase64-encoded-String#, secondImage=null, secondImageBytes=#secondImage-bytes#, secondImageType=null, secondImageBase64String=#secondImageBase64-encoded-String#, category=INFO, viewType=2, position=null, validTime=1567773010116, validForSeconds=6, interactive=false, initialPopup=true, responseOptions=null, serviceReference=null, playSound=false, soundFileName=null]}
+20190906 12:30:04.767 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl] the situationid To PresentationId = {10003=602915210716859411}
+20190906 12:30:04.774 89 INFO [hmiprovider] HmiProviderImpl: message 602915210716859411: HmiPresentationTask [id=602915210716859411, title=Information, messageText=2m, image=null, imageBytes=#image-bytes#, imageType=svg+xml, imageBase64String=#imageBase64-encoded-String#, secondImage=null, secondImageBytes=#secondImage-bytes#, secondImageType=null, secondImageBase64String=#secondImageBase64-encoded-String#, category=INFO, viewType=2, position=null, validTime=1567773010765, validForSeconds=6, interactive=false, initialPopup=true, responseOptions=null, serviceReference=null, playSound=false, soundFileName=null] updated
+20190906 12:30:04.775 118 INFO [BLINDSPOTDETECTION]  Foreignvehicle info succesfully processed : 
+20190906 12:30:04.775 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] ForeignVehicle processing succes
+20190906 12:30:04.776 118 DEBUG [BLINDSPOTDETECTION] Begin to take from the messageQueue
+20190906 12:30:04.777 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Begin to take from the messageQueue
+20190906 12:30:04.842 118 INFO [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl]  onData methode is getting started
+20190906 12:30:04.842 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] getting position on onData
+20190906 12:30:04.843 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] Ownposition successfuly build
+20190906 12:30:04.843 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicleLength10221
+20190906 12:30:04.843 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicle611
+20190906 12:30:04.843 118 INFO [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] ownvehicle Info receive succes
+20190906 12:30:04.844 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] OwnVehicleInfo successfully processed
+20190906 12:30:04.940 118 INFO [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl]  onData methode is getting started
+20190906 12:30:04.941 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] getting position on onData
+20190906 12:30:04.942 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] Ownposition successfuly build
+20190906 12:30:04.942 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicleLength10221
+20190906 12:30:04.943 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicle611
+20190906 12:30:04.943 118 INFO [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] ownvehicle Info receive succes
+20190906 12:30:04.943 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] OwnVehicleInfo successfully processed
+20190906 12:30:04.977 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Took new Cam 
+20190906 12:30:04.978 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Cam was Null
+20190906 12:30:04.978 118 DEBUG [BLINDSPOTDETECTION] Begin to take from the messageQueue
+20190906 12:30:04.978 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Begin to take from the messageQueue
+20190906 12:30:05.070 118 INFO [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl]  onData methode is getting started
+20190906 12:30:05.070 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] getting position on onData
+20190906 12:30:05.070 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] Ownposition successfuly build
+20190906 12:30:05.070 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicleLength10221
+20190906 12:30:05.070 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicle611
+20190906 12:30:05.070 118 INFO [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] ownvehicle Info receive succes
+20190906 12:30:05.071 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] OwnVehicleInfo successfully processed
+20190906 12:30:05.148 118 INFO [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl]  onData methode is getting started
+20190906 12:30:05.148 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] getting position on onData
+20190906 12:30:05.149 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] Ownposition successfuly build
+20190906 12:30:05.149 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicleLength10221
+20190906 12:30:05.149 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicle611
+20190906 12:30:05.149 118 INFO [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] ownvehicle Info receive succes
+20190906 12:30:05.150 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] OwnVehicleInfo successfully processed
+20190906 12:30:05.179 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Took new Cam 
+20190906 12:30:05.179 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Cam was Null
+20190906 12:30:05.179 118 DEBUG [BLINDSPOTDETECTION] Begin to take from the messageQueue
+20190906 12:30:05.179 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Begin to take from the messageQueue
+20190906 12:30:05.219 101 INFO [AUTHCLIENT] Adding following well-known service IDs: [20001, 20002, 20003, 20004, 20005]
+20190906 12:30:05.222 99 INFO [AUTHRESERVATIONMOCK] Reservation done
+20190906 12:30:05.242 118 INFO [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl]  onData methode is getting started
+20190906 12:30:05.243 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] getting position on onData
+20190906 12:30:05.243 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] Ownposition successfuly build
+20190906 12:30:05.245 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicleLength10221
+20190906 12:30:05.245 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicle611
+20190906 12:30:05.246 118 INFO [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] ownvehicle Info receive succes
+20190906 12:30:05.246 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] OwnVehicleInfo successfully processed
+20190906 12:30:05.263 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Succeed adding a new Cam
+20190906 12:30:05.264 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Took new Cam 
+20190906 12:30:05.264 118 DEBUG [BLINDSPOTDETECTION] Handling Cam received from the Station : 10003
+20190906 12:30:05.264 118 DEBUG [BLINDSPOTDETECTION] begin to extract from the received cam
+20190906 12:30:05.265 118 DEBUG [BLINDSPOTDETECTION] own Heading is :121.1
+20190906 12:30:05.265 118 DEBUG [BLINDSPOTDETECTION] other Heading is :111.0
+20190906 12:30:05.265 118 DEBUG [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] not the same direction, canot calculate the Relevence
+20190906 12:30:05.265 118 INFO [BLINDSPOTDETECTION]  Foreignvehicle info succesfully processed : 
+20190906 12:30:05.265 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] ForeignVehicle processing succes
+20190906 12:30:05.266 118 DEBUG [BLINDSPOTDETECTION] Begin to take from the messageQueue
+20190906 12:30:05.266 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Begin to take from the messageQueue
+20190906 12:30:05.341 118 INFO [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl]  onData methode is getting started
+20190906 12:30:05.341 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] getting position on onData
+20190906 12:30:05.342 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] Ownposition successfuly build
+20190906 12:30:05.342 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicleLength10221
+20190906 12:30:05.343 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicle611
+20190906 12:30:05.343 118 INFO [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] ownvehicle Info receive succes
+20190906 12:30:05.343 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] OwnVehicleInfo successfully processed
+20190906 12:30:05.441 118 INFO [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl]  onData methode is getting started
+20190906 12:30:05.441 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] getting position on onData
+20190906 12:30:05.442 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] Ownposition successfuly build
+20190906 12:30:05.442 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicleLength10221
+20190906 12:30:05.442 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicle611
+20190906 12:30:05.442 118 INFO [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] ownvehicle Info receive succes
+20190906 12:30:05.442 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] OwnVehicleInfo successfully processed
+20190906 12:30:05.466 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Took new Cam 
+20190906 12:30:05.466 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Cam was Null
+20190906 12:30:05.466 118 DEBUG [BLINDSPOTDETECTION] Begin to take from the messageQueue
+20190906 12:30:05.467 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Begin to take from the messageQueue
+20190906 12:30:05.542 118 INFO [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl]  onData methode is getting started
+20190906 12:30:05.542 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] getting position on onData
+20190906 12:30:05.543 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] Ownposition successfuly build
+20190906 12:30:05.543 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicleLength10221
+20190906 12:30:05.544 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicle611
+20190906 12:30:05.544 118 INFO [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] ownvehicle Info receive succes
+20190906 12:30:05.544 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] OwnVehicleInfo successfully processed
+20190906 12:30:05.642 118 INFO [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl]  onData methode is getting started
+20190906 12:30:05.642 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] getting position on onData
+20190906 12:30:05.642 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] Ownposition successfuly build
+20190906 12:30:05.643 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicleLength10221
+20190906 12:30:05.645 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicle611
+20190906 12:30:05.645 118 INFO [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] ownvehicle Info receive succes
+20190906 12:30:05.646 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] OwnVehicleInfo successfully processed
+20190906 12:30:05.668 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Took new Cam 
+20190906 12:30:05.668 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Cam was Null
+20190906 12:30:05.668 118 DEBUG [BLINDSPOTDETECTION] Begin to take from the messageQueue
+20190906 12:30:05.669 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Begin to take from the messageQueue
+20190906 12:30:05.745 118 INFO [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl]  onData methode is getting started
+20190906 12:30:05.746 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] getting position on onData
+20190906 12:30:05.746 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] Ownposition successfuly build
+20190906 12:30:05.747 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicleLength10221
+20190906 12:30:05.747 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicle611
+20190906 12:30:05.747 118 INFO [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] ownvehicle Info receive succes
+20190906 12:30:05.748 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] OwnVehicleInfo successfully processed
+20190906 12:30:05.759 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Succeed adding a new Cam
+20190906 12:30:05.760 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Took new Cam 
+20190906 12:30:05.760 118 DEBUG [BLINDSPOTDETECTION] Handling Cam received from the Station : 10003
+20190906 12:30:05.760 118 DEBUG [BLINDSPOTDETECTION] begin to extract from the received cam
+20190906 12:30:05.761 118 DEBUG [BLINDSPOTDETECTION] own Heading is :121.1
+20190906 12:30:05.762 118 DEBUG [BLINDSPOTDETECTION] other Heading is :111.0
+20190906 12:30:05.762 118 DEBUG [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] not the same direction, canot calculate the Relevence
+20190906 12:30:05.762 118 INFO [BLINDSPOTDETECTION]  Foreignvehicle info succesfully processed : 
+20190906 12:30:05.763 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] ForeignVehicle processing succes
+20190906 12:30:05.763 118 DEBUG [BLINDSPOTDETECTION] Begin to take from the messageQueue
+20190906 12:30:05.763 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Begin to take from the messageQueue
+20190906 12:30:05.841 118 INFO [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl]  onData methode is getting started
+20190906 12:30:05.841 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] getting position on onData
+20190906 12:30:05.842 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] Ownposition successfuly build
+20190906 12:30:05.843 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicleLength10221
+20190906 12:30:05.843 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicle611
+20190906 12:30:05.844 118 INFO [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] ownvehicle Info receive succes
+20190906 12:30:05.844 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] OwnVehicleInfo successfully processed
+20190906 12:30:05.941 118 INFO [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl]  onData methode is getting started
+20190906 12:30:05.941 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] getting position on onData
+20190906 12:30:05.942 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] Ownposition successfuly build
+20190906 12:30:05.942 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicleLength10221
+20190906 12:30:05.942 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicle611
+20190906 12:30:05.943 118 INFO [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] ownvehicle Info receive succes
+20190906 12:30:05.943 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] OwnVehicleInfo successfully processed
+20190906 12:30:05.964 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Took new Cam 
+20190906 12:30:05.964 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Cam was Null
+20190906 12:30:05.964 118 DEBUG [BLINDSPOTDETECTION] Begin to take from the messageQueue
+20190906 12:30:05.965 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Begin to take from the messageQueue
+20190906 12:30:06.073 118 INFO [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl]  onData methode is getting started
+20190906 12:30:06.073 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] getting position on onData
+20190906 12:30:06.074 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] Ownposition successfuly build
+20190906 12:30:06.074 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicleLength10221
+20190906 12:30:06.075 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicle611
+20190906 12:30:06.075 118 INFO [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] ownvehicle Info receive succes
+20190906 12:30:06.075 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] OwnVehicleInfo successfully processed
+20190906 12:30:06.148 118 INFO [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl]  onData methode is getting started
+20190906 12:30:06.149 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] getting position on onData
+20190906 12:30:06.149 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] Ownposition successfuly build
+20190906 12:30:06.149 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicleLength10221
+20190906 12:30:06.150 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicle611
+20190906 12:30:06.151 118 INFO [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] ownvehicle Info receive succes
+20190906 12:30:06.151 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] OwnVehicleInfo successfully processed
+20190906 12:30:06.165 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Took new Cam 
+20190906 12:30:06.165 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Cam was Null
+20190906 12:30:06.165 118 DEBUG [BLINDSPOTDETECTION] Begin to take from the messageQueue
+20190906 12:30:06.165 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Begin to take from the messageQueue
+20190906 12:30:06.258 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Succeed adding a new Cam
+20190906 12:30:06.259 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Took new Cam 
+20190906 12:30:06.259 118 DEBUG [BLINDSPOTDETECTION] Handling Cam received from the Station : 10003
+20190906 12:30:06.259 118 DEBUG [BLINDSPOTDETECTION] begin to extract from the received cam
+20190906 12:30:06.260 118 DEBUG [BLINDSPOTDETECTION] own Heading is :121.1
+20190906 12:30:06.260 118 DEBUG [BLINDSPOTDETECTION] other Heading is :113.0
+20190906 12:30:06.262 118 DEBUG [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] own heading121.1
+20190906 12:30:06.262 118 DEBUG [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] other vehicle heading113.0
+20190906 12:30:06.263 118 DEBUG [BLINDSPOTDETECTION] the calculated relative bearing ist : 328.9000126077465
+20190906 12:30:06.265 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl]  : display methode is starting
+20190906 12:30:06.266 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl]  : Start building the presentation
+20190906 12:30:06.267 118 DEBUG [BLINDSPOTDETECTION] Hmi presentation task is successfully created
+20190906 12:30:06.267 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl]  : PresentationT successfully built
+20190906 12:30:06.267 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl] there is already a presentation  for this Situation. will do update
+20190906 12:30:06.267 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl] the situationid To PresentationTask = {10003=HmiPresentationTask [id=602915210716859411, title=Information, messageText=4m, image=null, imageBytes=#image-bytes#, imageType=svg+xml, imageBase64String=#imageBase64-encoded-String#, secondImage=null, secondImageBytes=#secondImage-bytes#, secondImageType=null, secondImageBase64String=#secondImageBase64-encoded-String#, category=INFO, viewType=2, position=null, validTime=1567773010116, validForSeconds=6, interactive=false, initialPopup=true, responseOptions=null, serviceReference=null, playSound=false, soundFileName=null]}
+20190906 12:30:06.269 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl] the situationid To PresentationId = {10003=602915210716859411}
+20190906 12:30:06.273 89 INFO [hmiprovider] HmiProviderImpl: message 602915210716859411: HmiPresentationTask [id=602915210716859411, title=Information, messageText=2m, image=null, imageBytes=#image-bytes#, imageType=svg+xml, imageBase64String=#imageBase64-encoded-String#, secondImage=null, secondImageBytes=#secondImage-bytes#, secondImageType=null, secondImageBase64String=#secondImageBase64-encoded-String#, category=INFO, viewType=2, position=null, validTime=1567773012266, validForSeconds=6, interactive=false, initialPopup=true, responseOptions=null, serviceReference=null, playSound=false, soundFileName=null] updated
+20190906 12:30:06.274 118 DEBUG [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] Starting to Display a presentation from left side
+20190906 12:30:06.274 118 INFO [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl]  onData methode is getting started
+20190906 12:30:06.274 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl]  : display methode is starting
+20190906 12:30:06.274 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] getting position on onData
+20190906 12:30:06.274 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl]  : Start building the presentation
+20190906 12:30:06.275 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] Ownposition successfuly build
+20190906 12:30:06.275 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicleLength10221
+20190906 12:30:06.275 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicle611
+20190906 12:30:06.275 118 DEBUG [BLINDSPOTDETECTION] Hmi presentation task is successfully created
+20190906 12:30:06.276 118 INFO [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] ownvehicle Info receive succes
+20190906 12:30:06.276 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl]  : PresentationT successfully built
+20190906 12:30:06.276 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] OwnVehicleInfo successfully processed
+20190906 12:30:06.276 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl] there is already a presentation  for this Situation. will do update
+20190906 12:30:06.277 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl] the situationid To PresentationTask = {10003=HmiPresentationTask [id=602915210716859411, title=Information, messageText=4m, image=null, imageBytes=#image-bytes#, imageType=svg+xml, imageBase64String=#imageBase64-encoded-String#, secondImage=null, secondImageBytes=#secondImage-bytes#, secondImageType=null, secondImageBase64String=#secondImageBase64-encoded-String#, category=INFO, viewType=2, position=null, validTime=1567773010116, validForSeconds=6, interactive=false, initialPopup=true, responseOptions=null, serviceReference=null, playSound=false, soundFileName=null]}
+20190906 12:30:06.277 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl] the situationid To PresentationId = {10003=602915210716859411}
+20190906 12:30:06.283 89 INFO [hmiprovider] HmiProviderImpl: message 602915210716859411: HmiPresentationTask [id=602915210716859411, title=Information, messageText=2m, image=null, imageBytes=#image-bytes#, imageType=svg+xml, imageBase64String=#imageBase64-encoded-String#, secondImage=null, secondImageBytes=#secondImage-bytes#, secondImageType=null, secondImageBase64String=#secondImageBase64-encoded-String#, category=INFO, viewType=2, position=null, validTime=1567773012275, validForSeconds=6, interactive=false, initialPopup=true, responseOptions=null, serviceReference=null, playSound=false, soundFileName=null] updated
+20190906 12:30:06.283 118 INFO [BLINDSPOTDETECTION]  Foreignvehicle info succesfully processed : 
+20190906 12:30:06.283 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] ForeignVehicle processing succes
+20190906 12:30:06.284 118 DEBUG [BLINDSPOTDETECTION] Begin to take from the messageQueue
+20190906 12:30:06.284 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Begin to take from the messageQueue
+20190906 12:30:06.349 118 INFO [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl]  onData methode is getting started
+20190906 12:30:06.350 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] getting position on onData
+20190906 12:30:06.350 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] Ownposition successfuly build
+20190906 12:30:06.350 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicleLength10221
+20190906 12:30:06.351 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicle611
+20190906 12:30:06.351 118 INFO [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] ownvehicle Info receive succes
+20190906 12:30:06.352 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] OwnVehicleInfo successfully processed
+20190906 12:30:06.442 118 INFO [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl]  onData methode is getting started
+20190906 12:30:06.442 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] getting position on onData
+20190906 12:30:06.443 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] Ownposition successfuly build
+20190906 12:30:06.443 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicleLength10221
+20190906 12:30:06.443 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicle611
+20190906 12:30:06.443 118 INFO [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] ownvehicle Info receive succes
+20190906 12:30:06.444 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] OwnVehicleInfo successfully processed
+20190906 12:30:06.485 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Took new Cam 
+20190906 12:30:06.485 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Cam was Null
+20190906 12:30:06.485 118 DEBUG [BLINDSPOTDETECTION] Begin to take from the messageQueue
+20190906 12:30:06.485 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Begin to take from the messageQueue
+20190906 12:30:06.541 118 INFO [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl]  onData methode is getting started
+20190906 12:30:06.542 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] getting position on onData
+20190906 12:30:06.542 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] Ownposition successfuly build
+20190906 12:30:06.543 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicleLength10221
+20190906 12:30:06.543 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicle611
+20190906 12:30:06.544 118 INFO [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] ownvehicle Info receive succes
+20190906 12:30:06.544 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] OwnVehicleInfo successfully processed
+20190906 12:30:06.640 118 INFO [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl]  onData methode is getting started
+20190906 12:30:06.641 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] getting position on onData
+20190906 12:30:06.641 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] Ownposition successfuly build
+20190906 12:30:06.642 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicleLength10221
+20190906 12:30:06.642 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicle611
+20190906 12:30:06.643 118 INFO [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] ownvehicle Info receive succes
+20190906 12:30:06.643 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] OwnVehicleInfo successfully processed
+20190906 12:30:06.686 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Took new Cam 
+20190906 12:30:06.686 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Cam was Null
+20190906 12:30:06.686 118 DEBUG [BLINDSPOTDETECTION] Begin to take from the messageQueue
+20190906 12:30:06.686 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Begin to take from the messageQueue
+20190906 12:30:06.755 118 INFO [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl]  onData methode is getting started
+20190906 12:30:06.756 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] getting position on onData
+20190906 12:30:06.756 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] Ownposition successfuly build
+20190906 12:30:06.757 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicleLength10221
+20190906 12:30:06.757 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicle611
+20190906 12:30:06.757 118 INFO [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] ownvehicle Info receive succes
+20190906 12:30:06.758 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] OwnVehicleInfo successfully processed
+20190906 12:30:06.764 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Succeed adding a new Cam
+20190906 12:30:06.764 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Took new Cam 
+20190906 12:30:06.764 118 DEBUG [BLINDSPOTDETECTION] Handling Cam received from the Station : 10003
+20190906 12:30:06.764 118 DEBUG [BLINDSPOTDETECTION] begin to extract from the received cam
+20190906 12:30:06.764 118 DEBUG [BLINDSPOTDETECTION] own Heading is :121.1
+20190906 12:30:06.765 118 DEBUG [BLINDSPOTDETECTION] other Heading is :115.0
+20190906 12:30:06.765 118 DEBUG [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] own heading121.1
+20190906 12:30:06.765 118 DEBUG [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] other vehicle heading115.0
+20190906 12:30:06.773 118 DEBUG [BLINDSPOTDETECTION] the calculated relative bearing ist : 328.9000126077465
+20190906 12:30:06.773 118 DEBUG [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] Relevent object from left side added to the scoreList
+20190906 12:30:06.774 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl]  : display methode is starting
+20190906 12:30:06.774 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl]  : Start building the presentation
+20190906 12:30:06.775 118 DEBUG [BLINDSPOTDETECTION] Hmi presentation task is successfully created
+20190906 12:30:06.776 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl]  : PresentationT successfully built
+20190906 12:30:06.776 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl] there is already a presentation  for this Situation. will do update
+20190906 12:30:06.776 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl] the situationid To PresentationTask = {10003=HmiPresentationTask [id=602915210716859411, title=Information, messageText=4m, image=null, imageBytes=#image-bytes#, imageType=svg+xml, imageBase64String=#imageBase64-encoded-String#, secondImage=null, secondImageBytes=#secondImage-bytes#, secondImageType=null, secondImageBase64String=#secondImageBase64-encoded-String#, category=INFO, viewType=2, position=null, validTime=1567773010116, validForSeconds=6, interactive=false, initialPopup=true, responseOptions=null, serviceReference=null, playSound=false, soundFileName=null]}
+20190906 12:30:06.777 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl] the situationid To PresentationId = {10003=602915210716859411}
+20190906 12:30:06.778 89 INFO [hmiprovider] HmiProviderImpl: message 602915210716859411: HmiPresentationTask [id=602915210716859411, title=Information, messageText=2m, image=null, imageBytes=#image-bytes#, imageType=svg+xml, imageBase64String=#imageBase64-encoded-String#, secondImage=null, secondImageBytes=#secondImage-bytes#, secondImageType=null, secondImageBase64String=#secondImageBase64-encoded-String#, category=INFO, viewType=2, position=null, validTime=1567773012775, validForSeconds=6, interactive=false, initialPopup=true, responseOptions=null, serviceReference=null, playSound=false, soundFileName=null] updated
+20190906 12:30:06.779 118 INFO [BLINDSPOTDETECTION]  Foreignvehicle info succesfully processed : 
+20190906 12:30:06.779 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] ForeignVehicle processing succes
+20190906 12:30:06.779 118 DEBUG [BLINDSPOTDETECTION] Begin to take from the messageQueue
+20190906 12:30:06.779 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Begin to take from the messageQueue
+20190906 12:30:06.842 118 INFO [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl]  onData methode is getting started
+20190906 12:30:06.842 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] getting position on onData
+20190906 12:30:06.842 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] Ownposition successfuly build
+20190906 12:30:06.844 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicleLength10221
+20190906 12:30:06.845 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicle611
+20190906 12:30:06.845 118 INFO [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] ownvehicle Info receive succes
+20190906 12:30:06.846 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] OwnVehicleInfo successfully processed
+
+
+
+
+
+
+
+
+
+
+
+
+20190906 12:30:15.881 118 DEBUG [BLINDSPOTDETECTION] Hmi presentation task is successfully created
+20190906 12:30:15.881 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl]  : PresentationT successfully built
+20190906 12:30:15.882 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl] there is already a presentation  for this Situation. will do update
+20190906 12:30:15.882 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl] the situationid To PresentationTask = {10003=HmiPresentationTask [id=602915210716859411, title=Information, messageText=4m, image=null, imageBytes=#image-bytes#, imageType=svg+xml, imageBase64String=#imageBase64-encoded-String#, secondImage=null, secondImageBytes=#secondImage-bytes#, secondImageType=null, secondImageBase64String=#secondImageBase64-encoded-String#, category=INFO, viewType=2, position=null, validTime=1567773010116, validForSeconds=6, interactive=false, initialPopup=true, responseOptions=null, serviceReference=null, playSound=false, soundFileName=null]}
+20190906 12:30:15.882 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl] the situationid To PresentationId = {10003=602915210716859411}
+20190906 12:30:15.884 89 INFO [hmiprovider] HmiProviderImpl: message 602915210716859411: HmiPresentationTask [id=602915210716859411, title=Information, messageText=2m, image=null, imageBytes=#image-bytes#, imageType=svg+xml, imageBase64String=#imageBase64-encoded-String#, secondImage=null, secondImageBytes=#secondImage-bytes#, secondImageType=null, secondImageBase64String=#secondImageBase64-encoded-String#, category=INFO, viewType=2, position=null, validTime=1567773021877, validForSeconds=6, interactive=false, initialPopup=true, responseOptions=null, serviceReference=null, playSound=false, soundFileName=null] updated
+20190906 12:30:15.884 118 INFO [BLINDSPOTDETECTION]  Foreignvehicle info succesfully processed : 
+20190906 12:30:15.884 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] ForeignVehicle processing succes
+20190906 12:30:15.884 118 DEBUG [BLINDSPOTDETECTION] Begin to take from the messageQueue
+20190906 12:30:15.885 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Begin to take from the messageQueue
+20190906 12:30:15.941 118 INFO [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl]  onData methode is getting started
+20190906 12:30:15.941 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] getting position on onData
+20190906 12:30:15.942 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] Ownposition successfuly build
+20190906 12:30:15.942 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicleLength10221
+20190906 12:30:15.942 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicle611
+20190906 12:30:15.943 118 INFO [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] ownvehicle Info receive succes
+20190906 12:30:15.943 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] OwnVehicleInfo successfully processed
+20190906 12:30:16.073 118 INFO [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl]  onData methode is getting started
+20190906 12:30:16.073 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] getting position on onData
+20190906 12:30:16.074 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] Ownposition successfuly build
+20190906 12:30:16.075 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicleLength10221
+20190906 12:30:16.075 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicle611
+20190906 12:30:16.075 118 INFO [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] ownvehicle Info receive succes
+20190906 12:30:16.076 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] OwnVehicleInfo successfully processed
+20190906 12:30:16.085 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Took new Cam 
+20190906 12:30:16.085 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Cam was Null
+20190906 12:30:16.086 118 DEBUG [BLINDSPOTDETECTION] Begin to take from the messageQueue
+20190906 12:30:16.086 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Begin to take from the messageQueue
+20190906 12:30:16.148 118 INFO [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl]  onData methode is getting started
+20190906 12:30:16.149 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] getting position on onData
+20190906 12:30:16.150 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] Ownposition successfuly build
+20190906 12:30:16.151 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicleLength10221
+20190906 12:30:16.151 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicle611
+20190906 12:30:16.151 118 INFO [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] ownvehicle Info receive succes
+20190906 12:30:16.152 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] OwnVehicleInfo successfully processed
+20190906 12:30:16.168 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Succeed adding a new Cam
+20190906 12:30:16.168 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Took new Cam 
+20190906 12:30:16.168 118 DEBUG [BLINDSPOTDETECTION] Handling Cam received from the Station : 10003
+20190906 12:30:16.169 118 DEBUG [BLINDSPOTDETECTION] begin to extract from the received cam
+20190906 12:30:16.169 118 DEBUG [BLINDSPOTDETECTION] own Heading is :121.1
+20190906 12:30:16.170 118 DEBUG [BLINDSPOTDETECTION] other Heading is :114.0
+20190906 12:30:16.170 118 DEBUG [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] own heading121.1
+20190906 12:30:16.170 118 DEBUG [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] other vehicle heading114.0
+20190906 12:30:16.171 118 DEBUG [BLINDSPOTDETECTION] the calculated relative bearing ist : 271.87987978928606
+20190906 12:30:16.172 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl]  : display methode is starting
+20190906 12:30:16.172 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl]  : Start building the presentation
+20190906 12:30:16.173 118 DEBUG [BLINDSPOTDETECTION] Hmi presentation task is successfully created
+20190906 12:30:16.173 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl]  : PresentationT successfully built
+20190906 12:30:16.173 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl] there is already a presentation  for this Situation. will do update
+20190906 12:30:16.173 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl] the situationid To PresentationTask = {10003=HmiPresentationTask [id=602915210716859411, title=Information, messageText=4m, image=null, imageBytes=#image-bytes#, imageType=svg+xml, imageBase64String=#imageBase64-encoded-String#, secondImage=null, secondImageBytes=#secondImage-bytes#, secondImageType=null, secondImageBase64String=#secondImageBase64-encoded-String#, category=INFO, viewType=2, position=null, validTime=1567773010116, validForSeconds=6, interactive=false, initialPopup=true, responseOptions=null, serviceReference=null, playSound=false, soundFileName=null]}
+20190906 12:30:16.174 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl] the situationid To PresentationId = {10003=602915210716859411}
+20190906 12:30:16.175 89 INFO [hmiprovider] HmiProviderImpl: message 602915210716859411: HmiPresentationTask [id=602915210716859411, title=Information, messageText=2m, image=null, imageBytes=#image-bytes#, imageType=svg+xml, imageBase64String=#imageBase64-encoded-String#, secondImage=null, secondImageBytes=#secondImage-bytes#, secondImageType=null, secondImageBase64String=#secondImageBase64-encoded-String#, category=INFO, viewType=2, position=null, validTime=1567773022172, validForSeconds=6, interactive=false, initialPopup=true, responseOptions=null, serviceReference=null, playSound=false, soundFileName=null] updated
+20190906 12:30:16.175 118 DEBUG [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] Starting to Display a presentation from left side
+20190906 12:30:16.176 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl]  : display methode is starting
+20190906 12:30:16.176 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl]  : Start building the presentation
+20190906 12:30:16.177 118 DEBUG [BLINDSPOTDETECTION] Hmi presentation task is successfully created
+20190906 12:30:16.177 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl]  : PresentationT successfully built
+20190906 12:30:16.178 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl] there is already a presentation  for this Situation. will do update
+20190906 12:30:16.178 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl] the situationid To PresentationTask = {10003=HmiPresentationTask [id=602915210716859411, title=Information, messageText=4m, image=null, imageBytes=#image-bytes#, imageType=svg+xml, imageBase64String=#imageBase64-encoded-String#, secondImage=null, secondImageBytes=#secondImage-bytes#, secondImageType=null, secondImageBase64String=#secondImageBase64-encoded-String#, category=INFO, viewType=2, position=null, validTime=1567773010116, validForSeconds=6, interactive=false, initialPopup=true, responseOptions=null, serviceReference=null, playSound=false, soundFileName=null]}
+20190906 12:30:16.178 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl] the situationid To PresentationId = {10003=602915210716859411}
+20190906 12:30:16.180 89 INFO [hmiprovider] HmiProviderImpl: message 602915210716859411: HmiPresentationTask [id=602915210716859411, title=Information, messageText=2m, image=null, imageBytes=#image-bytes#, imageType=svg+xml, imageBase64String=#imageBase64-encoded-String#, secondImage=null, secondImageBytes=#secondImage-bytes#, secondImageType=null, secondImageBase64String=#secondImageBase64-encoded-String#, category=INFO, viewType=2, position=null, validTime=1567773022177, validForSeconds=6, interactive=false, initialPopup=true, responseOptions=null, serviceReference=null, playSound=false, soundFileName=null] updated
+20190906 12:30:16.180 118 INFO [BLINDSPOTDETECTION]  Foreignvehicle info succesfully processed : 
+20190906 12:30:16.180 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] ForeignVehicle processing succes
+20190906 12:30:16.180 118 DEBUG [BLINDSPOTDETECTION] Begin to take from the messageQueue
+20190906 12:30:16.181 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Begin to take from the messageQueue
+20190906 12:30:16.244 118 INFO [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl]  onData methode is getting started
+20190906 12:30:16.245 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] getting position on onData
+20190906 12:30:16.245 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] Ownposition successfuly build
+20190906 12:30:16.245 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicleLength10221
+20190906 12:30:16.246 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicle611
+20190906 12:30:16.246 118 INFO [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] ownvehicle Info receive succes
+20190906 12:30:16.246 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] OwnVehicleInfo successfully processed
+20190906 12:30:16.341 118 INFO [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl]  onData methode is getting started
+20190906 12:30:16.341 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] getting position on onData
+20190906 12:30:16.341 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] Ownposition successfuly build
+20190906 12:30:16.342 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicleLength10221
+20190906 12:30:16.342 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicle611
+20190906 12:30:16.343 118 INFO [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] ownvehicle Info receive succes
+20190906 12:30:16.344 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] OwnVehicleInfo successfully processed
+20190906 12:30:16.381 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Took new Cam 
+20190906 12:30:16.381 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Cam was Null
+20190906 12:30:16.381 118 DEBUG [BLINDSPOTDETECTION] Begin to take from the messageQueue
+20190906 12:30:16.382 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Begin to take from the messageQueue
+20190906 12:30:16.464 118 INFO [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl]  onData methode is getting started
+20190906 12:30:16.464 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] getting position on onData
+20190906 12:30:16.464 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] Ownposition successfuly build
+20190906 12:30:16.464 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicleLength10221
+20190906 12:30:16.465 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicle611
+20190906 12:30:16.465 118 INFO [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] ownvehicle Info receive succes
+20190906 12:30:16.465 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] OwnVehicleInfo successfully processed
+20190906 12:30:16.541 118 INFO [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl]  onData methode is getting started
+20190906 12:30:16.541 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] getting position on onData
+20190906 12:30:16.542 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] Ownposition successfuly build
+20190906 12:30:16.542 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicleLength10221
+20190906 12:30:16.542 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicle611
+20190906 12:30:16.543 118 INFO [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] ownvehicle Info receive succes
+20190906 12:30:16.543 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] OwnVehicleInfo successfully processed
+20190906 12:30:16.582 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Took new Cam 
+20190906 12:30:16.582 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Cam was Null
+20190906 12:30:16.582 118 DEBUG [BLINDSPOTDETECTION] Begin to take from the messageQueue
+20190906 12:30:16.583 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Begin to take from the messageQueue
+20190906 12:30:16.642 118 INFO [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl]  onData methode is getting started
+20190906 12:30:16.642 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] getting position on onData
+20190906 12:30:16.643 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] Ownposition successfuly build
+20190906 12:30:16.643 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicleLength10221
+20190906 12:30:16.643 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicle611
+20190906 12:30:16.644 118 INFO [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] ownvehicle Info receive succes
+20190906 12:30:16.645 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] OwnVehicleInfo successfully processed
+20190906 12:30:16.669 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Succeed adding a new Cam
+20190906 12:30:16.669 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Took new Cam 
+20190906 12:30:16.669 118 DEBUG [BLINDSPOTDETECTION] Handling Cam received from the Station : 10003
+20190906 12:30:16.670 118 DEBUG [BLINDSPOTDETECTION] begin to extract from the received cam
+20190906 12:30:16.670 118 DEBUG [BLINDSPOTDETECTION] own Heading is :121.1
+20190906 12:30:16.670 118 DEBUG [BLINDSPOTDETECTION] other Heading is :113.0
+20190906 12:30:16.671 118 DEBUG [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] own heading121.1
+20190906 12:30:16.671 118 DEBUG [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] other vehicle heading113.0
+20190906 12:30:16.672 118 DEBUG [BLINDSPOTDETECTION] the calculated relative bearing ist : 271.87987978928606
+20190906 12:30:16.673 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl]  : display methode is starting
+20190906 12:30:16.673 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl]  : Start building the presentation
+20190906 12:30:16.674 118 DEBUG [BLINDSPOTDETECTION] Hmi presentation task is successfully created
+20190906 12:30:16.674 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl]  : PresentationT successfully built
+20190906 12:30:16.675 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl] there is already a presentation  for this Situation. will do update
+20190906 12:30:16.675 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl] the situationid To PresentationTask = {10003=HmiPresentationTask [id=602915210716859411, title=Information, messageText=4m, image=null, imageBytes=#image-bytes#, imageType=svg+xml, imageBase64String=#imageBase64-encoded-String#, secondImage=null, secondImageBytes=#secondImage-bytes#, secondImageType=null, secondImageBase64String=#secondImageBase64-encoded-String#, category=INFO, viewType=2, position=null, validTime=1567773010116, validForSeconds=6, interactive=false, initialPopup=true, responseOptions=null, serviceReference=null, playSound=false, soundFileName=null]}
+20190906 12:30:16.676 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl] the situationid To PresentationId = {10003=602915210716859411}
+20190906 12:30:16.678 89 INFO [hmiprovider] HmiProviderImpl: message 602915210716859411: HmiPresentationTask [id=602915210716859411, title=Information, messageText=2m, image=null, imageBytes=#image-bytes#, imageType=svg+xml, imageBase64String=#imageBase64-encoded-String#, secondImage=null, secondImageBytes=#secondImage-bytes#, secondImageType=null, secondImageBase64String=#secondImageBase64-encoded-String#, category=INFO, viewType=2, position=null, validTime=1567773022674, validForSeconds=6, interactive=false, initialPopup=true, responseOptions=null, serviceReference=null, playSound=false, soundFileName=null] updated
+20190906 12:30:16.679 118 DEBUG [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] Starting to Display a presentation from left side
+20190906 12:30:16.679 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl]  : display methode is starting
+20190906 12:30:16.679 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl]  : Start building the presentation
+20190906 12:30:16.680 118 DEBUG [BLINDSPOTDETECTION] Hmi presentation task is successfully created
+20190906 12:30:16.681 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl]  : PresentationT successfully built
+20190906 12:30:16.681 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl] there is already a presentation  for this Situation. will do update
+20190906 12:30:16.682 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl] the situationid To PresentationTask = {10003=HmiPresentationTask [id=602915210716859411, title=Information, messageText=4m, image=null, imageBytes=#image-bytes#, imageType=svg+xml, imageBase64String=#imageBase64-encoded-String#, secondImage=null, secondImageBytes=#secondImage-bytes#, secondImageType=null, secondImageBase64String=#secondImageBase64-encoded-String#, category=INFO, viewType=2, position=null, validTime=1567773010116, validForSeconds=6, interactive=false, initialPopup=true, responseOptions=null, serviceReference=null, playSound=false, soundFileName=null]}
+20190906 12:30:16.682 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl] the situationid To PresentationId = {10003=602915210716859411}
+20190906 12:30:16.683 89 INFO [hmiprovider] HmiProviderImpl: message 602915210716859411: HmiPresentationTask [id=602915210716859411, title=Information, messageText=2m, image=null, imageBytes=#image-bytes#, imageType=svg+xml, imageBase64String=#imageBase64-encoded-String#, secondImage=null, secondImageBytes=#secondImage-bytes#, secondImageType=null, secondImageBase64String=#secondImageBase64-encoded-String#, category=INFO, viewType=2, position=null, validTime=1567773022680, validForSeconds=6, interactive=false, initialPopup=true, responseOptions=null, serviceReference=null, playSound=false, soundFileName=null] updated
+20190906 12:30:16.684 118 INFO [BLINDSPOTDETECTION]  Foreignvehicle info succesfully processed : 
+20190906 12:30:16.684 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] ForeignVehicle processing succes
+20190906 12:30:16.684 118 DEBUG [BLINDSPOTDETECTION] Begin to take from the messageQueue
+20190906 12:30:16.685 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Begin to take from the messageQueue
+20190906 12:30:16.743 118 INFO [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl]  onData methode is getting started
+20190906 12:30:16.743 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] getting position on onData
+20190906 12:30:16.744 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] Ownposition successfuly build
+20190906 12:30:16.744 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicleLength10221
+20190906 12:30:16.744 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicle611
+20190906 12:30:16.745 118 INFO [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] ownvehicle Info receive succes
+20190906 12:30:16.745 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] OwnVehicleInfo successfully processed
+20190906 12:30:16.842 118 INFO [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl]  onData methode is getting started
+20190906 12:30:16.843 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] getting position on onData
+20190906 12:30:16.843 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] Ownposition successfuly build
+20190906 12:30:16.843 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicleLength10221
+20190906 12:30:16.843 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicle611
+20190906 12:30:16.843 118 INFO [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] ownvehicle Info receive succes
+20190906 12:30:16.844 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] OwnVehicleInfo successfully processed
+20190906 12:30:16.885 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Took new Cam 
+20190906 12:30:16.885 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Cam was Null
+20190906 12:30:16.886 118 DEBUG [BLINDSPOTDETECTION] Begin to take from the messageQueue
+20190906 12:30:16.886 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Begin to take from the messageQueue
+20190906 12:30:16.942 118 INFO [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl]  onData methode is getting started
+20190906 12:30:16.942 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] getting position on onData
+20190906 12:30:16.942 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] Ownposition successfuly build
+20190906 12:30:16.942 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicleLength10221
+20190906 12:30:16.943 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicle611
+20190906 12:30:16.943 118 INFO [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] ownvehicle Info receive succes
+20190906 12:30:16.944 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] OwnVehicleInfo successfully processed
+20190906 12:30:17.070 118 INFO [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl]  onData methode is getting started
+20190906 12:30:17.071 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] getting position on onData
+20190906 12:30:17.072 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] Ownposition successfuly build
+20190906 12:30:17.072 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicleLength10221
+20190906 12:30:17.072 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicle611
+20190906 12:30:17.073 118 INFO [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] ownvehicle Info receive succes
+20190906 12:30:17.073 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] OwnVehicleInfo successfully processed
+20190906 12:30:17.087 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Took new Cam 
+20190906 12:30:17.087 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Cam was Null
+20190906 12:30:17.087 118 DEBUG [BLINDSPOTDETECTION] Begin to take from the messageQueue
+20190906 12:30:17.087 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Begin to take from the messageQueue
+20190906 12:30:17.148 118 INFO [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl]  onData methode is getting started
+20190906 12:30:17.148 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] getting position on onData
+20190906 12:30:17.149 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] Ownposition successfuly build
+20190906 12:30:17.149 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicleLength10221
+20190906 12:30:17.150 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicle611
+20190906 12:30:17.151 118 INFO [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] ownvehicle Info receive succes
+20190906 12:30:17.151 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] OwnVehicleInfo successfully processed
+20190906 12:30:17.178 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Took new Cam 
+20190906 12:30:17.178 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Succeed adding a new Cam
+20190906 12:30:17.179 118 DEBUG [BLINDSPOTDETECTION] Handling Cam received from the Station : 10003
+20190906 12:30:17.179 118 DEBUG [BLINDSPOTDETECTION] begin to extract from the received cam
+20190906 12:30:17.179 118 DEBUG [BLINDSPOTDETECTION] own Heading is :121.1
+20190906 12:30:17.180 118 DEBUG [BLINDSPOTDETECTION] other Heading is :113.0
+20190906 12:30:17.181 118 DEBUG [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] own heading121.1
+20190906 12:30:17.181 118 DEBUG [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] other vehicle heading113.0
+20190906 12:30:17.182 118 DEBUG [BLINDSPOTDETECTION] the calculated relative bearing ist : 238.89999999999998
+20190906 12:30:17.182 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl]  : display methode is starting
+20190906 12:30:17.183 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl]  : Start building the presentation
+20190906 12:30:17.184 118 DEBUG [BLINDSPOTDETECTION] Hmi presentation task is successfully created
+20190906 12:30:17.184 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl]  : PresentationT successfully built
+20190906 12:30:17.184 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl] there is already a presentation  for this Situation. will do update
+20190906 12:30:17.184 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl] the situationid To PresentationTask = {10003=HmiPresentationTask [id=602915210716859411, title=Information, messageText=4m, image=null, imageBytes=#image-bytes#, imageType=svg+xml, imageBase64String=#imageBase64-encoded-String#, secondImage=null, secondImageBytes=#secondImage-bytes#, secondImageType=null, secondImageBase64String=#secondImageBase64-encoded-String#, category=INFO, viewType=2, position=null, validTime=1567773010116, validForSeconds=6, interactive=false, initialPopup=true, responseOptions=null, serviceReference=null, playSound=false, soundFileName=null]}
+20190906 12:30:17.185 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl] the situationid To PresentationId = {10003=602915210716859411}
+20190906 12:30:17.186 89 INFO [hmiprovider] HmiProviderImpl: message 602915210716859411: HmiPresentationTask [id=602915210716859411, title=Information, messageText=2m, image=null, imageBytes=#image-bytes#, imageType=svg+xml, imageBase64String=#imageBase64-encoded-String#, secondImage=null, secondImageBytes=#secondImage-bytes#, secondImageType=null, secondImageBase64String=#secondImageBase64-encoded-String#, category=INFO, viewType=2, position=null, validTime=1567773023183, validForSeconds=6, interactive=false, initialPopup=true, responseOptions=null, serviceReference=null, playSound=false, soundFileName=null] updated
+20190906 12:30:17.186 118 DEBUG [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] Starting to Display a presentation from left side
+20190906 12:30:17.186 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl]  : display methode is starting
+20190906 12:30:17.187 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl]  : Start building the presentation
+20190906 12:30:17.188 118 DEBUG [BLINDSPOTDETECTION] Hmi presentation task is successfully created
+20190906 12:30:17.188 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl]  : PresentationT successfully built
+20190906 12:30:17.188 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl] there is already a presentation  for this Situation. will do update
+20190906 12:30:17.188 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl] the situationid To PresentationTask = {10003=HmiPresentationTask [id=602915210716859411, title=Information, messageText=4m, image=null, imageBytes=#image-bytes#, imageType=svg+xml, imageBase64String=#imageBase64-encoded-String#, secondImage=null, secondImageBytes=#secondImage-bytes#, secondImageType=null, secondImageBase64String=#secondImageBase64-encoded-String#, category=INFO, viewType=2, position=null, validTime=1567773010116, validForSeconds=6, interactive=false, initialPopup=true, responseOptions=null, serviceReference=null, playSound=false, soundFileName=null]}
+20190906 12:30:17.189 118 DEBUG [BLINDSPOTDETECTION] [HmiConnectorImpl] the situationid To PresentationId = {10003=602915210716859411}
+20190906 12:30:17.190 89 INFO [hmiprovider] HmiProviderImpl: message 602915210716859411: HmiPresentationTask [id=602915210716859411, title=Information, messageText=2m, image=null, imageBytes=#image-bytes#, imageType=svg+xml, imageBase64String=#imageBase64-encoded-String#, secondImage=null, secondImageBytes=#secondImage-bytes#, secondImageType=null, secondImageBase64String=#secondImageBase64-encoded-String#, category=INFO, viewType=2, position=null, validTime=1567773023187, validForSeconds=6, interactive=false, initialPopup=true, responseOptions=null, serviceReference=null, playSound=false, soundFileName=null] updated
+20190906 12:30:17.190 118 INFO [BLINDSPOTDETECTION]  Foreignvehicle info succesfully processed : 
+20190906 12:30:17.191 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] ForeignVehicle processing succes
+20190906 12:30:17.191 118 DEBUG [BLINDSPOTDETECTION] Begin to take from the messageQueue
+20190906 12:30:17.191 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Begin to take from the messageQueue
+20190906 12:30:17.242 118 INFO [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl]  onData methode is getting started
+20190906 12:30:17.243 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] getting position on onData
+20190906 12:30:17.243 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] Ownposition successfuly build
+20190906 12:30:17.244 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicleLength10221
+20190906 12:30:17.244 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicle611
+20190906 12:30:17.244 118 INFO [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] ownvehicle Info receive succes
+20190906 12:30:17.245 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] OwnVehicleInfo successfully processed
+20190906 12:30:17.341 118 INFO [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl]  onData methode is getting started
+20190906 12:30:17.342 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] getting position on onData
+20190906 12:30:17.342 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] Ownposition successfuly build
+20190906 12:30:17.343 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicleLength10221
+20190906 12:30:17.343 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicle611
+20190906 12:30:17.344 118 INFO [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] ownvehicle Info receive succes
+20190906 12:30:17.344 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] OwnVehicleInfo successfully processed
+20190906 12:30:17.391 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Took new Cam 
+20190906 12:30:17.391 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Cam was Null
+20190906 12:30:17.391 118 DEBUG [BLINDSPOTDETECTION] Begin to take from the messageQueue
+20190906 12:30:17.392 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Begin to take from the messageQueue
+20190906 12:30:17.442 118 INFO [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl]  onData methode is getting started
+20190906 12:30:17.442 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] getting position on onData
+20190906 12:30:17.442 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] Ownposition successfuly build
+20190906 12:30:17.443 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicleLength10221
+20190906 12:30:17.443 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicle611
+20190906 12:30:17.443 118 INFO [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] ownvehicle Info receive succes
+20190906 12:30:17.443 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] OwnVehicleInfo successfully processed
+20190906 12:30:17.542 118 INFO [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl]  onData methode is getting started
+20190906 12:30:17.543 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] getting position on onData
+20190906 12:30:17.543 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] Ownposition successfuly build
+20190906 12:30:17.543 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicleLength10221
+20190906 12:30:17.544 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicle611
+20190906 12:30:17.544 118 INFO [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] ownvehicle Info receive succes
+20190906 12:30:17.544 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] OwnVehicleInfo successfully processed
+20190906 12:30:17.592 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Took new Cam 
+20190906 12:30:17.592 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Cam was Null
+20190906 12:30:17.592 118 DEBUG [BLINDSPOTDETECTION] Begin to take from the messageQueue
+20190906 12:30:17.593 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Begin to take from the messageQueue
+20190906 12:30:17.641 118 INFO [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl]  onData methode is getting started
+20190906 12:30:17.642 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] getting position on onData
+20190906 12:30:17.642 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] Ownposition successfuly build
+20190906 12:30:17.642 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicleLength10221
+20190906 12:30:17.643 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicle611
+20190906 12:30:17.643 118 INFO [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] ownvehicle Info receive succes
+20190906 12:30:17.643 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] OwnVehicleInfo successfully processed
+20190906 12:30:17.679 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Succeed adding a new Cam
+20190906 12:30:17.679 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Took new Cam 
+20190906 12:30:17.679 118 DEBUG [BLINDSPOTDETECTION] Handling Cam received from the Station : 10003
+20190906 12:30:17.679 118 DEBUG [BLINDSPOTDETECTION] begin to extract from the received cam
+20190906 12:30:17.680 118 DEBUG [BLINDSPOTDETECTION] own Heading is :121.1
+20190906 12:30:17.680 118 DEBUG [BLINDSPOTDETECTION] other Heading is :110.0
+20190906 12:30:17.680 118 DEBUG [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] not the same direction, canot calculate the Relevence
+20190906 12:30:17.681 118 INFO [BLINDSPOTDETECTION]  Foreignvehicle info succesfully processed : 
+20190906 12:30:17.681 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] ForeignVehicle processing succes
+20190906 12:30:17.681 118 DEBUG [BLINDSPOTDETECTION] Begin to take from the messageQueue
+20190906 12:30:17.681 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Begin to take from the messageQueue
+20190906 12:30:17.742 118 INFO [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl]  onData methode is getting started
+20190906 12:30:17.742 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] getting position on onData
+20190906 12:30:17.743 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] Ownposition successfuly build
+20190906 12:30:17.743 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicleLength10221
+20190906 12:30:17.743 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicle611
+20190906 12:30:17.744 118 INFO [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] ownvehicle Info receive succes
+20190906 12:30:17.745 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] OwnVehicleInfo successfully processed
+20190906 12:30:17.842 118 INFO [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl]  onData methode is getting started
+20190906 12:30:17.842 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] getting position on onData
+20190906 12:30:17.843 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] Ownposition successfuly build
+20190906 12:30:17.844 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicleLength10221
+20190906 12:30:17.844 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicle611
+20190906 12:30:17.845 118 INFO [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] ownvehicle Info receive succes
+20190906 12:30:17.846 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] OwnVehicleInfo successfully processed
+20190906 12:30:17.882 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Took new Cam 
+20190906 12:30:17.882 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Cam was Null
+20190906 12:30:17.882 118 DEBUG [BLINDSPOTDETECTION] Begin to take from the messageQueue
+20190906 12:30:17.882 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Begin to take from the messageQueue
+20190906 12:30:17.941 118 INFO [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl]  onData methode is getting started
+20190906 12:30:17.941 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] getting position on onData
+20190906 12:30:17.942 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] Ownposition successfuly build
+20190906 12:30:17.942 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicleLength10221
+20190906 12:30:17.942 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicle611
+20190906 12:30:17.944 118 INFO [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] ownvehicle Info receive succes
+20190906 12:30:17.946 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] OwnVehicleInfo successfully processed
+20190906 12:30:18.072 118 INFO [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl]  onData methode is getting started
+20190906 12:30:18.072 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] getting position on onData
+20190906 12:30:18.073 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] Ownposition successfuly build
+20190906 12:30:18.074 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicleLength10221
+20190906 12:30:18.074 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] vehicle611
+20190906 12:30:18.075 118 INFO [BLINDSPOTDETECTION] [BlindSpotDetectionImpl] ownvehicle Info receive succes
+20190906 12:30:18.075 118 DEBUG [BLINDSPOTDETECTION] [OwnVehicleInfoHandlerImpl] OwnVehicleInfo successfully processed
+20190906 12:30:18.083 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Took new Cam 
+20190906 12:30:18.083 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Cam was Null
+20190906 12:30:18.083 118 DEBUG [BLINDSPOTDETECTION] Begin to take from the messageQueue
+20190906 12:30:18.084 118 DEBUG [BLINDSPOTDETECTION] [CamHandlerImpl] Begin to take from the messageQueue
+
+
+
+
+
+
+
+
+
+
+
+
